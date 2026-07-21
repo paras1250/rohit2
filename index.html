@@ -18,6 +18,7 @@
 body{
     background:#fff;
     color:#222;
+    overflow-x:hidden;
 }
 
 .top-bar{
@@ -120,44 +121,104 @@ h1{
     text-decoration:none;
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
+    .container {
+        padding: 28px 16px 48px;
+    }
 
-.logo{
-    width:100px;
-    height:100px;
+    .top-bar {
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
+    .members {
+        font-size: 18px;
+    }
+
+    .info {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    .join-btn {
+        width: min(100%, 320px);
+        font-size: 24px;
+        padding: 16px 24px;
+        box-shadow: 0 0 0 8px #edf7ed;
+    }
+
+    .telegram-text {
+        font-size: 16px;
+    }
+
+    .footer {
+        font-size: 14px;
+        padding: 24px 16px;
+    }
 }
 
-h1{
-    font-size:32px;
-}
+@media (max-width: 480px) {
+    .container {
+        padding: 24px 14px 40px;
+    }
 
-.subtitle{
-    font-size:22px;
-}
+    .top-bar {
+        font-size: 14px;
+    }
 
-.members{
-    font-size:18px;
-}
+    .logo {
+        width: 88px;
+        height: 88px;
+    }
 
-.info{
-    font-size:18px;
-}
+    h1 {
+        font-size: 26px;
+    }
 
-.join-btn{
-    font-size:28px;
-    padding:18px 50px;
-}
+    .subtitle {
+        font-size: 18px;
+    }
 
-.telegram-text{
-    font-size:16px;
-}
+    .members {
+        font-size: 16px;
+    }
 
-.footer{
-    font-size:14px;
-}
+    .info {
+        font-size: 16px;
+    }
+
+    .join-btn {
+        width: 100%;
+        font-size: 20px;
+        padding: 14px 18px;
+        box-shadow: 0 0 0 6px #edf7ed;
+    }
+
+    .telegram-text {
+        font-size: 15px;
+    }
+
+    .footer {
+        font-size: 13px;
+        line-height: 1.8;
+    }
 }
 </style>
-    <!-- Meta Pixel Code -->
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -167,13 +228,14 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1032796719161601');
+fbq('init', '1692968658582944');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1032796719161601&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=1692968658582944&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+
 </head>
 <body>
 
